@@ -1,0 +1,45 @@
+.drudesk-vs-columm-wraper
+{
+    display: inline-block;
+    margin:5px;
+}
+.drudesk-vs-row-wraper
+{
+    font-size: 0;
+
+
+}
+.drudeks-vs-grid-item
+{position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.image-hover
+{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.base-image
+{
+    -webkit-transition: all 1s ease-out ;
+    -moz-transition: all 1s ease ;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;}
+.base-image:hover
+{
+opacity: 0;
+
+}
+
+.base-image:hover ~ .image-hover
+{
+
+
+}

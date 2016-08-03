@@ -1,0 +1,12 @@
+name = drudesk
+description = Exposes a views style plugin to render items on a fluid grid.
+dependencies[] = views
+package = Views
+core = 7.x
+files[] = drudesk_vs.module
+files[] = theme/theme.inc
+files[] = views/drudesk_vs.views.inc
+files[] = views/drudesk_vs_plugin_style.inc
+
+stylesheets[all][] = css/drudesk_vs_style.css
+

@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Exposes a views style plugin to render items on a fluid grid.
+ */
+
+/**
+ * Implementation of hook_views_api().
+ */
+function drudesk_vs_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'drudesk_vs') .'/views',
+  );
+}
+
